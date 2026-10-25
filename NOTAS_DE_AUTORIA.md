@@ -1,5 +1,0 @@
-# Organização para portfólio
-
-As consultas em `consultas/` e os scripts em `analises/` partiram do código salvo por Gabriel Oliveira. Para garantir reprodução e nomes claros, a consulta inicial recebeu `ORDER BY mes ASC` antes de `LIMIT 1` e foi removido um comentário de preenchimento do editor; o alias `meses` usado na média anual foi renomeado `media_saldo`, sem alterar a expressão AVG. Espaços finais de linhas foram removidos. Os demais códigos desses diretórios mantêm a lógica entregue pelo autor. A consulta didática de parcelas fictícias foi omitida: este repositório analisa somente dados reais agregados do BCB.
-
-`apoio/dados.py`, `executar.py`, `dashboard.py` e a imagem-resumo são componentes de apoio para carregar, executar e apresentar o projeto de forma independente. Não são apresentados como código analítico escrito pelo autor. Achados do README são cálculos conferidos a partir das séries; respostas abertas sem números verificados não foram republicadas como se fossem conclusões quantitativas.
