@@ -1,0 +1,15 @@
+{
+  "primeiro_mes": "2019-01-01",
+  "ultimo_mes": "2025-12-01",
+  "saldo_inicio_milhoes": 1812785,
+  "saldo_final_milhoes": 4435517,
+  "saldo_variacao_nominal_2019_2025_pct": 144.68,
+  "saldo_variacao_nominal_dez_2024_dez_2025_pct": 11.85,
+  "taxa_dez_2024_pct": 3.63,
+  "taxa_jan_2025_pct": 3.89,
+  "taxa_dez_2025_pct": 5.12,
+  "taxa_variacao_2025_pp": 1.23,
+  "taxa_variacao_dez_2024_dez_2025_pp": 1.49,
+  "meses_alinhados": 84,
+  "coleta_utc": "2026-10-23T15:00:24.624280+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "collected_at_utc": "2026-10-23T15:00:24.624280+00:00",
+  "files": {
+    "sgs_20541.json": {
+      "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.20541/dados?formato=json&dataInicial=01/01/2019&dataFinal=31/12/2025",
+      "sha256": "b8425e7e905d8d5006ade8514b52228446820d9b2a6191c5ee4020560c6466ce",
+      "rows": 84,
+      "license": "ODbL",
+      "catalog": "https://dadosabertos.bcb.gov.br/dataset/20541-saldo-da-carteira-de-credito---pessoas-fisicas---total",
+      "unit": "milhões de reais"
+    },
+    "sgs_21084.json": {
+      "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.21084/dados?formato=json&dataInicial=01/01/2019&dataFinal=31/12/2025",
+      "sha256": "3caaf6cc128d39bcf48dda451737dbe3cd35754be7082225b68e14186c9d10a2",
+      "rows": 84,
+      "license": "ODbL",
+      "catalog": "https://dadosabertos.bcb.gov.br/dataset/21084-inadimplencia-da-carteira-de-credito---pessoas-fisicas---total",
+      "unit": "percentual"
+    }
+  }
+}
