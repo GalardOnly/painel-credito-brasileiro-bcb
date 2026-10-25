@@ -29,12 +29,6 @@ python -m venv .venv
 
 O terceiro comando refaz as consultas e os scripts em `resultados/reexecucao/`; o último abre o painel no navegador local. Os arquivos deste repositório são suficientes para reproduzir a análise; os snapshots estão em `dados/` e são conferidos por hash.
 
-## Organização e autoria
-
-- `consultas/`: consultas SQL originalmente escritas pelo autor, organizadas por finalidade. Duas normalizações para publicação são documentadas em `NOTAS_DE_AUTORIA.md`.
-- `analises/`: scripts de pandas e gráfico Plotly escritos pelo autor; recebem `df` com as séries alinhadas do módulo de apoio.
-- `apoio/dados.py`, `executar.py`, `dashboard.py`: componentes de apoio identificados para leitura, execução independente e apresentação local. A imagem estática do README é derivada dos dados para apresentar o resultado no GitHub.
-- `dados/`: snapshots oficiais, metadados e hashes; `resultados/`: gráficos e tabelas derivados efetivamente reproduzidos.
 
 ## Fonte e limitações
 
