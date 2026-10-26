@@ -1,0 +1,5 @@
+# Plotly.js esta embutido no HTML para funcionar offline; nao e codigo-fonte autoral.
+resultados/graficos/*.html linguist-generated
+
+# Incluir as consultas SQL na estatistica de linguagens do GitHub.
+consultas/*.sql linguist-detectable

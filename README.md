@@ -6,7 +6,7 @@ Análise reproduzível de séries públicas do **Banco Central do Brasil** para 
 
 ## Objetivo e método
 
-Alinhei **84 observações mensais** das séries SGS 20541 e 21084 pela chave `mes`, explorei os indicadores em **SQL/SQLite** e preparei séries, cálculos e um gráfico em **Python/pandas/Plotly**. O painel local permite filtrar anos, examinar os dois indicadores e baixar a tabela filtrada. As consultas e os scripts analíticos estão em `consultas/` e `analises/`; os componentes de leitura, execução e interface estão identificados em `apoio/`, `executar.py` e `dashboard.py`.
+Alinhei **84 observações mensais** das séries SGS 20541 e 21084 pela chave `mes`, explorei os indicadores em **SQL/SQLite** e preparei séries, cálculos e um gráfico em **Python/pandas/Plotly**. O painel local permite filtrar anos, examinar os dois indicadores e baixar a tabela filtrada. As consultas e os scripts estão em `consultas/` e `analises/`; `dashboard.py` abre o painel e `executar.py` reproduz os resultados.
 
 ## Achados nos dados deste recorte
 
@@ -28,7 +28,6 @@ python -m venv .venv
 ```
 
 O terceiro comando refaz as consultas e os scripts em `resultados/reexecucao/`; o último abre o painel no navegador local. Os arquivos deste repositório são suficientes para reproduzir a análise; os snapshots estão em `dados/` e são conferidos por hash.
-
 
 ## Fonte e limitações
 
